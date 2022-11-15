@@ -6,7 +6,7 @@ local module = {
 	Lag = 1; --the higher the number, the less demanding the fighter will be on the server but look laggier, DO NOT MAKE LESS THAN 1
 	LungeCharge = true; --makes the ai charge when they lunge, which looks cooler but makes them more vulnerable
 	RandomiseCircling = true; --randomise what direction to circle around the enemy instead of always using the optimal direction, makes the ai harder to predict
-	Agressive = true; --will not back off after lunging, much worse vs sword fighters but better vs anything else
+	Agressive = false; --will not back off after lunging, much worse vs sword fighters but better vs anything else
 	
 	LungeDamage = nil;
 	SlashDamage = nil;
